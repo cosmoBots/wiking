@@ -1,4 +1,4 @@
-class CreateWikiMacros < ActiveRecord::Migration
+class CreateWikiMacros < ActiveRecord::Migration[4.2]
 
     def self.up
         create_table :wiki_macros do |t|

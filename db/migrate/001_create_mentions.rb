@@ -1,4 +1,4 @@
-class CreateMentions < ActiveRecord::Migration
+class CreateMentions < ActiveRecord::Migration[4.2]
 
     def self.up
         create_table :mentions do |t|
